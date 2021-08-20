@@ -29,6 +29,7 @@ pipeline {
             sh '''
                echo "Using a multi-line shell step"
                chmod +x test.sh
+               ./test.sh
             '''
          }
       }   
